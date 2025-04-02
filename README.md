@@ -1,12 +1,39 @@
-# React + Vite
+# chiikawa Accounting
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![chiikawa Accounting Logo](chiikawa.jpg)
 
-Currently, two official plugins are available:
+chiikawa Accounting is a simple web application for managing personal finances. It allows users to track their income and expenses, categorize transactions, and visualize spending with a pie chart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Add Transactions**: Record income and expenses with categories.
+- **Manage Categories**: Add and delete custom categories.
+- **View Balance**: Display total income, total expenses, and balance.
+- **Transaction History**: View and delete past transactions.
+- **Data Persistence**: Save data in local storage.
+- **Visualize Spending**: Display a pie chart of expenses by category.
+- **Responsive Design**: Mobile-friendly interface.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How It Works
+
+The application is built with React and uses local storage to persist data. It leverages the following libraries and technologies:
+
+- **React**: For building the user interface.
+- **Recharts**: For creating the pie chart.
+- **CSS**: For styling the application.
+- **Local Storage**: For storing transactions and categories.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (version 6 or higher)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
