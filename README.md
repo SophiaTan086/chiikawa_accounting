@@ -6,33 +6,33 @@ chiikawa Accounting is a simple web application for managing personal finances. 
 
 ## Features
 
-- **Add Transactions**: Record income and expenses with categories.
-- **Manage Categories**: Add and delete custom categories.
-- **View Balance**: Display total income, total expenses, and balance.
-- **Transaction History**: View and delete past transactions.
-- **Data Persistence**: Save data in local storage.
-- **Visualize Spending**: Display a pie chart of expenses by category.
-- **Responsive Design**: Mobile-friendly interface.
+- **添加交易记录**: 按类别记录收入和支出。
+- **分类管理**: 添加和删除自定义类别。
+- **查看余额**: 显示总收入、总费用和余额。
+- **查看交易历史**: 查看和删除过去的交易。
+- **数据持久化**: 将数据保存在本地存储中。
+- **可视化支出**: 通过饼图显示各分类的支出情况。
+- **响应式设计**: 适合移动设备的界面。
 
 ## How It Works
 
-The application is built with React and uses local storage to persist data. It leverages the following libraries and technologies:
+该应用使用 React 构建，并使用本地存储来持久化数据。它利用了以下库和技术：
 
-- **React**: For building the user interface.
-- **Recharts**: For creating the pie chart.
-- **CSS**: For styling the application.
-- **Local Storage**: For storing transactions and categories.
+- **React**：用于构建用户界面。
+- **Recharts**：用于创建饼图。
+- **CSS**：用于应用的样式。
+- **本地存储**：用于存储交易和分类。
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
-- npm (version 6 or higher)
+- Node.js
+- npm
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
 
    ```sh
    git clone https://github.com/your-username/your-repo-name.git
